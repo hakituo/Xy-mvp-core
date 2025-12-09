@@ -1,0 +1,110 @@
+[
+  {
+    "ts": 1765166301.0,
+    "event": "task_scheduled",
+    "task_id": "task_f5f17672_0",
+    "details": "[2025-12-08 11:58:21] [DEBUG] [TraceID:a123ca73-51dd-4d30-9e0e-6eaae5b4adac] [mvp_core] Task scheduled - ID: task_f5f17672_0, Name: llm_-1"
+  },
+  {
+    "ts": 1765166301.0,
+    "event": "task_started",
+    "task_id": "task_f5f17672_0",
+    "details": "[2025-12-08 11:58:21] [DEBUG] [TraceID:a123ca73-51dd-4d30-9e0e-6eaae5b4adac] [mvp_core] Worker worker-0 executing task task_f5f17672_0"
+  },
+  {
+    "ts": 1765166305.0,
+    "event": "task_completed",
+    "task_id": "task_f5f17672_0",
+    "details": "[2025-12-08 11:58:25] [DEBUG] [TraceID:a123ca73-51dd-4d30-9e0e-6eaae5b4adac] [mvp_core] Task task_f5f17672_0 completed"
+  },
+  {
+    "ts": 1765166307.0,
+    "event": "task_scheduled",
+    "task_id": "task_3a68eb22_1",
+    "details": "[2025-12-08 11:58:27] [DEBUG] [TraceID:a123ca73-51dd-4d30-9e0e-6eaae5b4adac] [mvp_core] Task scheduled - ID: task_3a68eb22_1, Name: vl_-1"
+  },
+  {
+    "ts": 1765166307.0,
+    "event": "task_started",
+    "task_id": "task_3a68eb22_1",
+    "details": "[2025-12-08 11:58:27] [DEBUG] [TraceID:a123ca73-51dd-4d30-9e0e-6eaae5b4adac] [mvp_core] Worker worker-0 executing task task_3a68eb22_1"
+  },
+  {
+    "ts": 1765166319.0,
+    "event": "task_completed",
+    "task_id": "task_3a68eb22_1",
+    "details": "[2025-12-08 11:58:39] [DEBUG] [TraceID:a123ca73-51dd-4d30-9e0e-6eaae5b4adac] [mvp_core] Task task_3a68eb22_1 completed"
+  },
+  {
+    "ts": 1765166319.0,
+    "event": "task_scheduled",
+    "task_id": "task_4a1d32f2_2",
+    "details": "[2025-12-08 11:58:39] [DEBUG] [TraceID:a123ca73-51dd-4d30-9e0e-6eaae5b4adac] [mvp_core] Task scheduled - ID: task_4a1d32f2_2, Name: sd_-1"
+  },
+  {
+    "ts": 1765166319.0,
+    "event": "task_started",
+    "task_id": "task_4a1d32f2_2",
+    "details": "[2025-12-08 11:58:39] [DEBUG] [TraceID:a123ca73-51dd-4d30-9e0e-6eaae5b4adac] [mvp_core] Worker worker-1 executing task task_4a1d32f2_2"
+  },
+  {
+    "ts": 1765166340.0,
+    "event": "task_completed",
+    "task_id": "task_4a1d32f2_2",
+    "details": "[2025-12-08 11:59:00] [DEBUG] [TraceID:a123ca73-51dd-4d30-9e0e-6eaae5b4adac] [mvp_core] Task task_4a1d32f2_2 completed"
+  },
+  {
+    "ts": 1765166340.0,
+    "event": "task_scheduled",
+    "task_id": "task_ad2c8d9d_3",
+    "details": "[2025-12-08 11:59:00] [DEBUG] [TraceID:9ad2cc20-db49-4d9b-8ce9-91adab2c40c6] [mvp_core] Task scheduled - ID: task_ad2c8d9d_3, Name: llm_0"
+  },
+  {
+    "ts": 1765166340.0,
+    "event": "task_started",
+    "task_id": "task_ad2c8d9d_3",
+    "details": "[2025-12-08 11:59:00] [DEBUG] [TraceID:9ad2cc20-db49-4d9b-8ce9-91adab2c40c6] [mvp_core] Worker worker-0 executing task task_ad2c8d9d_3"
+  },
+  {
+    "ts": 1765166346.0,
+    "event": "task_completed",
+    "task_id": "task_ad2c8d9d_3",
+    "details": "[2025-12-08 11:59:06] [DEBUG] [TraceID:9ad2cc20-db49-4d9b-8ce9-91adab2c40c6] [mvp_core] Task task_ad2c8d9d_3 completed"
+  },
+  {
+    "ts": 1765166348.0,
+    "event": "task_scheduled",
+    "task_id": "task_5ebd0684_4",
+    "details": "[2025-12-08 11:59:08] [DEBUG] [TraceID:9ad2cc20-db49-4d9b-8ce9-91adab2c40c6] [mvp_core] Task scheduled - ID: task_5ebd0684_4, Name: vl_0"
+  },
+  {
+    "ts": 1765166348.0,
+    "event": "task_started",
+    "task_id": "task_5ebd0684_4",
+    "details": "[2025-12-08 11:59:08] [DEBUG] [TraceID:9ad2cc20-db49-4d9b-8ce9-91adab2c40c6] [mvp_core] Worker worker-2 executing task task_5ebd0684_4"
+  },
+  {
+    "ts": 1765166352.0,
+    "event": "task_completed",
+    "task_id": "task_5ebd0684_4",
+    "details": "[2025-12-08 11:59:12] [DEBUG] [TraceID:9ad2cc20-db49-4d9b-8ce9-91adab2c40c6] [mvp_core] Task task_5ebd0684_4 completed"
+  },
+  {
+    "ts": 1765166352.0,
+    "event": "task_scheduled",
+    "task_id": "task_cf08ff54_5",
+    "details": "[2025-12-08 11:59:12] [DEBUG] [TraceID:9ad2cc20-db49-4d9b-8ce9-91adab2c40c6] [mvp_core] Task scheduled - ID: task_cf08ff54_5, Name: sd_0"
+  },
+  {
+    "ts": 1765166352.0,
+    "event": "task_started",
+    "task_id": "task_cf08ff54_5",
+    "details": "[2025-12-08 11:59:12] [DEBUG] [TraceID:9ad2cc20-db49-4d9b-8ce9-91adab2c40c6] [mvp_core] Worker worker-1 executing task task_cf08ff54_5"
+  },
+  {
+    "ts": 1765166370.0,
+    "event": "task_completed",
+    "task_id": "task_cf08ff54_5",
+    "details": "[2025-12-08 11:59:30] [DEBUG] [TraceID:9ad2cc20-db49-4d9b-8ce9-91adab2c40c6] [mvp_core] Task task_cf08ff54_5 completed"
+  }
+]
