@@ -70,6 +70,7 @@ xy-core 架构通过工程化的异步调度方案，有效解决了多模态模
 *   `experiments/`: **实验与基准测试**。
     *   `comprehensive_experiment.py`: 综合性能测试脚本。
 *   `legacy/`: 来自旧版本的归档代码。
+*   `cpp_scheduler/`: C++ 异步调度器模块 (仍在开发中，尚未集成到主程序)。
 
 ## C++ 调度器文档
 

@@ -1,5 +1,7 @@
 # 资源隔离调度架构 (Resource Isolation Scheduler)
 
+**⚠️ 注意：此模块仍在积极开发中，尚未完全集成到主程序。**
+
 ## 🎯 项目概述
 
 这是一个**工业级**的多模态AI任务调度框架，专为解决本地部署环境下的资源争用问题而设计。通过严格的资源隔离和智能调度，实现了LLM、TTS和图像生成三大AI功能的高效协同工作。
@@ -189,8 +191,8 @@ cd build
 ## 📚 文档
 
 - [部署指南](docs/DEPLOYMENT_GUIDE.md)
-- [API参考](docs/API_REFERENCE.md)（即将推出）
-- [开发者指南](docs/DEVELOPER_GUIDE.md)（即将推出）
+- [API参考](docs/api_reference.md)
+- [开发者指南](docs/DEVELOPER_GUIDE.md)
 - [性能优化指南](docs/PERFORMANCE_OPTIMIZATION.md)（即将推出）
 
 ## 📄 许可证
