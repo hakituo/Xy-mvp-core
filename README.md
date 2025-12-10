@@ -50,27 +50,26 @@ xy-core 架构通过工程化的异步调度方案，有效解决了多模态模
 
 ## 目录结构
 
+*   `cpp_scheduler/`: C++ 异步调度器模块 (仍在开发中，尚未集成到主程序)。
+*   `data/`: **基础设施与适配器**。
+    *   `adapters/`: 接口的具体实现 (LocalLLM 等)。
+    *   `repositories/`: 数据访问实现。
 *   `domain/`: **核心业务逻辑**。纯 Python 代码。
     *   `entities/`: 数据模型 (Character, Message)。
     *   `services/`: 业务工作流 (ChatService)。
     *   `interfaces/`: 基础设施的抽象基类 (Ports/接口)。
-*   `data/`: **基础设施与适配器**。
-    *   `adapters/`: 接口的具体实现 (LocalLLM 等)。
-    *   `repositories/`: 数据访问实现。
-*   `services/`: **核心服务层**。
-    *   `task_scheduler.py`: 全局任务调度器 (GlobalTaskScheduler)。
-*   `utils/`: **通用工具**。
-    *   `trace_context.py`: 分布式追踪上下文。
-    *   `logger.py`: 支持 TraceID 的日志格式化器。
+*   `experiments/`: **实验与基准测试**。
+    *   `comprehensive_experiment.py`: 综合性能测试脚本。
 *   `presentation/`: **API 与 UI 层**。
     *   `websocket/`: WebSocket 处理器。
     *   `api/`: REST API 端点。
+*   `services/`: **核心服务层**。
+    *   `task_scheduler.py`: 全局任务调度器 (GlobalTaskScheduler)。
 *   `shared/`: **工具类**。
     *   `di.py`: 依赖注入容器。
-*   `experiments/`: **实验与基准测试**。
-    *   `comprehensive_experiment.py`: 综合性能测试脚本。
-*   `legacy/`: 来自旧版本的归档代码。
-*   `cpp_scheduler/`: C++ 异步调度器模块 (仍在开发中，尚未集成到主程序)。
+*   `utils/`: **通用工具**。
+    *   `trace_context.py`: 分布式追踪上下文。
+    *   `logger.py`: 支持 TraceID 的日志格式化器。
 
 ## C++ 调度器文档
 

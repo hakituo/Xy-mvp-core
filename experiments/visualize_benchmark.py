@@ -70,6 +70,7 @@ def plot_exp1_concurrency(data_list, output_dir):
     
     out_path = os.path.join(output_dir, 'exp1_concurrency_rps.pdf')
     plt.savefig(out_path)
+    plt.savefig(out_path.replace('.pdf', '.png'))
     print(f"Saved {out_path}")
     plt.close()
 
@@ -111,6 +112,7 @@ def plot_exp2_blocking(data_list, output_dir):
     plt.tight_layout()
     out_path = os.path.join(output_dir, 'exp2_blocking_latency.pdf')
     plt.savefig(out_path)
+    plt.savefig(out_path.replace('.pdf', '.png'))
     print(f"Saved {out_path}")
     plt.close()
 
@@ -145,6 +147,7 @@ def plot_exp3_distribution(data_list, output_dir):
     plt.tight_layout()
     out_path = os.path.join(output_dir, 'exp3_latency_dist.pdf')
     plt.savefig(out_path)
+    plt.savefig(out_path.replace('.pdf', '.png'))
     print(f"Saved {out_path}")
     plt.close()
 
@@ -201,14 +204,15 @@ def plot_exp4_stability(data_list, output_dir):
     plt.tight_layout()
     out_path = os.path.join(output_dir, 'exp4_stability.pdf')
     plt.savefig(out_path)
+    plt.savefig(out_path.replace('.pdf', '.png'))
     print(f"Saved {out_path}")
     plt.close()
 
 def main():
     # Setup paths
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    # Results are in mvp_core/experiment_results
-    results_dir = os.path.join(script_dir, "..", "experiment_results")
+    # Results are in mvp_core/experiments/experiment_results
+    results_dir = os.path.join(script_dir, "experiment_results")
     # Output charts to mvp_core/experiments/experiment_results
     output_dir = os.path.join(script_dir, "experiment_results")
     os.makedirs(output_dir, exist_ok=True)
