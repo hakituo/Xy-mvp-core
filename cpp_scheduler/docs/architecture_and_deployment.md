@@ -90,8 +90,8 @@
 ### 3.1 克隆代码仓库
 
 ```bash
-git clone https://github.com/your-org/ai-scheduler.git
-cd ai-scheduler
+git clone https://github.com/hakituo/Xy-mvp-core/cpp_scheduler.git
+cd cpp_scheduler
 ```
 
 ### 3.2 安装依赖
@@ -459,10 +459,5 @@ cmake --build . --config Release
 
 如有任何问题或建议，请通过以下方式联系我们：
 
-- **技术支持**：support@ai-scheduler.com
-- **GitHub Issues**：https://github.com/your-org/ai-scheduler/issues
-- **社区论坛**：https://forum.ai-scheduler.com
-
----
-
-本文档由AI调度器开发团队维护，最后更新日期：2023年12月15日。
+- **技术支持**：2991731868@qq.com
+- **GitHub Issues**：https://github.com/hakituo/Xy-mvp-core/cpp_scheduler

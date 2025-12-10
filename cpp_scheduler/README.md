@@ -50,7 +50,7 @@
 
 ```bash
 # 1. 克隆代码
-git clone https://github.com/xiaoyou-core/cpp_scheduler.git
+git clone https://github.com/hakituo/Xy-mvp-core/cpp_scheduler.git
 cd cpp_scheduler
 
 # 2. 安装依赖
@@ -97,6 +97,7 @@ make -j$(nproc)  # Linux
 
 ### TTS模型
 - ✅ Coqui Glow-TTS (CPU)
+- ✅ GPT-SoVITS 2Pro(CPU)
 - ✅ MeloTTS (CPU)
 - ✅ PyTTSX3 (CPU)
 
@@ -178,15 +179,6 @@ cd build
 ./tests/integration/resource_isolation_test
 ```
 
-## 🤝 商业价值
-
-### 为什么厂商会购买？
-
-1. **解决核心痛点**：彻底解决本地部署环境下的GPU争用问题
-2. **性能提升**：系统整体性能提升200%+
-3. **用户体验**：实时任务始终流畅，慢任务异步处理
-4. **硬件效率**：提升硬件利用效率，降低部署成本
-5. **稳定性**：系统稳定性大幅提升，避免卡死和崩溃
 
 ### 适用场景
 - 智能终端设备（手机、平板）
@@ -207,9 +199,8 @@ cd build
 
 ## 📞 联系我们
 
-- **项目主页**: https://github.com/xiaoyou-core/cpp_scheduler
-- **技术支持**: support@xiaoyou-core.com
-- **商务合作**: business@xiaoyou-core.com
+- **项目主页**: https://github.com/hakituo/Xy-mvp-cor\cpp_scheduler
+- **技术支持**: 2991731868@qq.com
 
 ---
 

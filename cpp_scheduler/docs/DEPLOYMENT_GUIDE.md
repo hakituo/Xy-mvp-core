@@ -124,7 +124,7 @@ sudo apt-get install -y build-essential cmake libuv1-dev python3-dev
 ### 2. 克隆代码
 
 ```bash
-git clone https://github.com/xiaoyou-core/cpp_scheduler.git
+git clone https://github.com/hakituo/Xy-mvp-core/cpp_scheduler.git
 cd cpp_scheduler
 ```
 
@@ -466,7 +466,7 @@ A: 根据实际硬件配置调整线程数、批处理大小和资源分配比�
 
 - **文档**：更多详细文档请访问项目Wiki
 - **问题反馈**：请在GitHub Issues中提交问题
-- **联系我们**：support@xiaoyou-core.com
+- **联系我们**：2991731868@qq.com
 
 ---
 
