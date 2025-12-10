@@ -71,6 +71,12 @@ xy-core 架构通过工程化的异步调度方案，有效解决了多模态模
     *   `comprehensive_experiment.py`: 综合性能测试脚本。
 *   `legacy/`: 来自旧版本的归档代码。
 
+## C++ 调度器文档
+
+*   [部署指南](cpp_scheduler/docs/DEPLOYMENT_GUIDE.md)
+*   [API 参考](cpp_scheduler/docs/api_reference.md)
+*   [架构与部署](cpp_scheduler/docs/architecture_and_deployment.md)
+
 ## 基准测试与性能
 
 `mvp_core` 包含一套完整的基准测试套件，用于验证架构性能和调度器效率。
